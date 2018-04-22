@@ -14,9 +14,9 @@ Wallet:
 7.  Go to 'open masternode configuration file' - found on 'tools' in menu
  a. You will see an example such as this:
  
- # Masternode config file
-# Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: mn1 127.0.0.2:6250 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+  Masternode config file
+ Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
+ Example: mn1 127.0.0.2:6250 93HaYBVUCYjEMeeH1Y4sBALQZE1Yc1K64xiqgX  2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 
 b. Add your own real working node details under it.
 1 - Put the masternode wallet name, i.e - masternode1
