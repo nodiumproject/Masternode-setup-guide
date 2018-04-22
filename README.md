@@ -26,7 +26,6 @@ b. Add your own real working node details under it.
 Example below
 
 Masternode1 124.842.07.0:6250 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
-(dummy above) IP------------  gen key------------------------------  masternode outputs-------------------------------------------------
 
 c. Once complete, save file
 
