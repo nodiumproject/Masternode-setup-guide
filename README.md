@@ -6,6 +6,7 @@ On your wallet:
 
 1.1 Download the wallet for your operating system which is available in our wallets repository at
 https://github.com/nodiumproject/Wallets
+
 1.2 Launch the wallet, allow it to sync
 1.3 Click on `debug console` found in `tools` - Type `masternode genkey` - copy the generated key - exit console
 1.4 Go to `receiving wallets` found in `files` - create masternode wallet, by creating a new wallet, called `masternode1`
