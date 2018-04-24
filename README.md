@@ -4,7 +4,7 @@
 
 1.1 Download the wallet for your operating system which is available in our wallets repository at
 https://github.com/nodiumproject/Wallets <br />
-1.2 Launch the wallet, allow it to sync <br />
+1.2 Launch the wallet and allow it to synchronize <br />
 1.3 Click on `debug console` found in `tools` - Type `masternode genkey` - copy the generated key - exit console <br />
 1.4 Go to `receiving wallets` found in `files` - create masternode wallet, by creating a new wallet, called `masternode1` <br />
 1.5 Send EXACTLY 10,000 coins to `masternode1` wallet <br />
