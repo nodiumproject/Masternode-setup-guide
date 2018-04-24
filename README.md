@@ -2,8 +2,6 @@
 
 ## 1. Wallet Setup
 
-On your wallet:
-
 1.1 Download the wallet for your operating system which is available in our wallets repository at
 https://github.com/nodiumproject/Wallets <br />
 1.2 Launch the wallet, allow it to sync <br />
@@ -15,8 +13,8 @@ https://github.com/nodiumproject/Wallets <br />
 
 ## 2. Masternode config file
 
-2.1 Go to `open masternode configuration file` - found on the 'tools' menu
-   Here you will see the format and an example( these three lines are comments so they have no effect )
+2.1 Go to `open masternode configuration file` - found on the 'tools' menu <br />
+   Here you will see the format and an example( these three lines are comments so they have no effect ) <br />
 The format is like this:
 
 ```
@@ -25,22 +23,22 @@ The format is like this:
 # Example: mn1 127.0.0.2:51474 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 ```
 
-2.2. Add your own real working node details under it.
-2.3. Put the masternode wallet name, i.e - `masternode1`
-2.4 Put the server IP address ( your vultr ip or other vps/vm ip) followed by the port :6250
-2.5 Put the private key generated in step 1.3
-2.6 Put the transaction hash and output id from step 1.7
+2.2. Add your own real working node details under it. <br />
+2.3. Put the masternode wallet name, i.e - `masternode1` <br />
+2.4 Put the server IP address ( your vultr ip or other vps/vm ip) followed by the port :6250 <br />
+2.5 Put the private key generated in step 1.3 <br />
+2.6 Put the transaction hash and output id from step 1.7 <br />
 Example below
 
 ```
 masternode1 124.842.07.0:6250 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
 ```
 
-2.7 Once complete, save the file
+2.7 Once complete, save the file <br />
 
 ## 3. Preparing the VPS config file with wallet information
 
-(Get ready for some linux, as seen in steps below you will use it)
+(Get ready for some linux, as seen in steps below you will use it) <br />
 
 3.1 Copy this, and save as a file to use later on desktop.
 
