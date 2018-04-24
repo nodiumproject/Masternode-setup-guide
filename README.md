@@ -86,11 +86,11 @@ Depending upon which operating system you are using. Download the following soft
 
 Next:
 
-1. Load the SSH terminal
-2. Copy your IP from the VPS - And for windows Putty simply enter in and press enter.
-3. It will login to server. Follow the commands below, typing one by one, each line, followed by pressing enter
-4. Username: root
-5. Password: (vultr password)
+4.2.1 Load the SSH terminal
+4.2.2 Copy your IP from the VPS - And for windows Putty simply enter in and press enter.
+4.2.3 It will login to server. Follow the commands below, typing one by one, each line, followed by pressing enter
+4.2.4 Username: root
+4.2.5 Password: (vultr password)
 
 ## 4.3 Configuring the VPS
 
