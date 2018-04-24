@@ -6,7 +6,7 @@ Latest masternode setup guide.
 
 On your wallet:
 
-1. Download wallet for your desktop, apple, linux or windows available in our wallets repository
+1. Download wallet for your Apple, linux or Windows available in our wallets repository
 2. Launch wallet, allow to sync
 3. Click on `debug console` found in `tools` - Type `masternode genkey` - exit console
 4. Go to `receiving wallets` found in files - create masternode wallet, by creating a new wallet, called `masternode1`
@@ -37,7 +37,7 @@ Add your own real working node details under it.
 1. Put the masternode wallet name, i.e - `masternode1`
 2. Put the server IP address (your vultr ip) followed by the port :6250
 3. Put the masternodes output exactly.
-
+4
 Example below
 
 ```
@@ -157,7 +157,7 @@ sudo make
 ./Nodiumd -daemon
 ```
 
-Ssave the rpc username and password in the output. Hit `CTRL+C` to stop the daemon.
+Save the rpc username and password in the output. Hit `CTRL+C` to stop the daemon.
 
 Now, edit the masternode config to enter the RCP username/password.
 
@@ -172,8 +172,8 @@ Paste the rpc username and password in. Next, paste the completed config details
 example:
 
 ```
-rpc user=user1
-rpc pass=fdf43324234
+rpcuser=user1
+rpcpassword=fdf43324234
 listen=1
 server=1
 daemon=1
@@ -215,3 +215,7 @@ Allow some time for your masternode to sync and the timer will being to show lat
 ***
 
 SUCCESS! - Begin earning for supporting the $XN network!
+
+# Security
+http://patheyman.com/masternode-secure/
+https://pivx.org/knowledge-base/wallet-setup-guide/
