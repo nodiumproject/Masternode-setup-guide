@@ -5,14 +5,13 @@
 On your wallet:
 
 1.1 Download the wallet for your operating system which is available in our wallets repository at
-https://github.com/nodiumproject/Wallets
-
-1.2 Launch the wallet, allow it to sync
-1.3 Click on `debug console` found in `tools` - Type `masternode genkey` - copy the generated key - exit console
-1.4 Go to `receiving wallets` found in `files` - create masternode wallet, by creating a new wallet, called `masternode1`
-1.5 Send EXACTLY 10,000 coins to `masternode1` wallet
-1.6. Go back to `debug console` - Type `masternode outputs`
-1.7: Now you should see a transaction hash and the output id, keep them for later.
+https://github.com/nodiumproject/Wallets <br />
+1.2 Launch the wallet, allow it to sync <br />
+1.3 Click on `debug console` found in `tools` - Type `masternode genkey` - copy the generated key - exit console <br />
+1.4 Go to `receiving wallets` found in `files` - create masternode wallet, by creating a new wallet, called `masternode1` <br />
+1.5 Send EXACTLY 10,000 coins to `masternode1` wallet <br />
+1.6. Go back to `debug console` - Type `masternode outputs` <br />
+1.7: Now you should see a transaction hash and the output id, keep them for later. <br />
 
 ## 2. Masternode config file
 
