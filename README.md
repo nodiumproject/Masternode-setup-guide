@@ -146,6 +146,7 @@ sudo make
 ## Start the Nodium masternode daemon( instance )
 
 ```
+cd src
 ./Nodiumd -daemon
 ```
 
