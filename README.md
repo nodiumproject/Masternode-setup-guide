@@ -36,6 +36,14 @@ masternode1 124.842.07.0:6250 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57c
 
 2.7 Once complete, save the file <br />
 
+The file will look like this:
+```
+# Masternode config file
+# Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
+# Example: mn1 127.0.0.2:51474 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+masternode1 124.842.07.0:6250 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
+```
+
 ## 3. Preparing the VPS config file with wallet information
 
 (Get ready for some linux, as seen in steps below you will use it) <br />
