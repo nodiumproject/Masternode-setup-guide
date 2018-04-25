@@ -48,13 +48,13 @@ masternode1 124.842.07.0:6250 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57c
 
 (Get ready for some linux, as seen in steps below you will use it) <br />
 
-3.1 Copy this, and save as a file to use later on desktop.
+3.1 Copy this, and save as a file to use later on your desktop for example.
 
 1. externalip and bind = your vultr ip address
 2. masternodeaddr = your vultr ip address + port
 3. masternodeprivkey = masternode gen key
 
-(Keep the private key to yourself and do not share it with anyone)
+(Keep the private key to yourself and do not share it with anyone !!!! )
 
 ```
 listen=1
@@ -95,7 +95,7 @@ Depending upon which operating system you are using. Download the following soft
 Next:
 
 4.2.1 Load the SSH terminal<br />
-4.2.2 Copy your IP from the VPS - And for windows Putty simply enter in and press enter.<br />
+4.2.2 Copy your IP from the VPS - And for windows Putty simply put in the IP and press enter.<br />
 4.2.3 It will login to server. Follow the commands below, typing one by one, each line, followed by pressing enter<br />
 4.2.4 Username: root<br />
 4.2.5 Password: (vultr password)<br />
