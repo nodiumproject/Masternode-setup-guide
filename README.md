@@ -66,7 +66,7 @@ masternode=1
 externalip=207.148.3.88
 bind=207.148.3.88
 masternodeaddr=207.148.3.88
-masternodeprivkey=-13bkESxBStGfzHAGAAke61kX0E5tLUeNgTTHWhpmJ5EBai4XZFa
+masternodeprivkey=13bkESxBStGfzHAGAAke61kX0E5tLUeNgTTHWhpmJ5EBai4XZFa
 ```
 
 Above is a non functioning dummy, replace with your own
@@ -161,7 +161,7 @@ cd src
 Save the rpc username and password from the output ( you will need it later ). 
 Hit `CTRL+C` to stop the daemon.
 
-Now, edit the masternode config to enter the RCP username/password.
+Now, edit the masternode config to enter the RPC username/password.
 
 ```
 sudo nano ~/.Nodium/Nodium.conf
