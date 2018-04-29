@@ -66,7 +66,7 @@ masternode=1
 externalip=207.148.3.88
 bind=207.148.3.88
 masternodeaddr=207.148.3.88
-masternodeprivkey=-13bkESxBStGfzHAGAAke61kX0E5tLUeNgTTHWhpmJ5EBai4XZFa
+masternodeprivkey=13bkESxBStGfzHAGAAke61kX0E5tLUeNgTTHWhpmJ5EBai4XZFa
 ```
 
 Above is a non functioning dummy, replace with your own
