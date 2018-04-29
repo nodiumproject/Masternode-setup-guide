@@ -65,7 +65,7 @@ maxconnections=256
 masternode=1
 externalip=207.148.3.88
 bind=207.148.3.88
-masternodeaddr=207.148.3.88:6250
+masternodeaddr=207.148.3.88
 masternodeprivkey=-13bkESxBStGfzHAGAAke61kX0E5tLUeNgTTHWhpmJ5EBai4XZFa
 ```
 
@@ -169,7 +169,7 @@ sudo nano ~/.Nodium/Nodium.conf
 
 ( this opens a text editor )
 
-Paste the text from step 3 and adjust the rpcuser and rpcpassword with the info you coppied in the previous step.
+Paste the text from step 3 and adjust the rpcuser and rpcpassword with the info you copied in the previous step.
 
 Example:
 
@@ -184,7 +184,7 @@ maxconnections=256
 masternode=1
 externalip=144.202.23.23
 bind=144.202.23.23
-masternodeaddr=144.202.23.23:6250
+masternodeaddr=144.202.23.23
 masternodeprivkey=jij9000909hjgffh
 ```
 
