@@ -65,7 +65,7 @@ maxconnections=256
 masternode=1
 externalip=207.148.3.88
 bind=207.148.3.88
-masternodeaddr=207.148.3.88:6250
+masternodeaddr=207.148.3.88
 masternodeprivkey=-13bkESxBStGfzHAGAAke61kX0E5tLUeNgTTHWhpmJ5EBai4XZFa
 ```
 
@@ -183,7 +183,7 @@ maxconnections=256
 masternode=1
 externalip=144.202.23.23
 bind=144.202.23.23
-masternodeaddr=144.202.23.23:6250
+masternodeaddr=144.202.23.23
 masternodeprivkey=jij9000909hjgffh
 ```
 
