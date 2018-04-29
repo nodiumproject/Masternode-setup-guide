@@ -134,7 +134,6 @@ sudo add-apt-repository ppa:bitcoin/bitcoin
 
 ```
 sudo apt-get update
-sudo-apt-get install
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 ```
 
@@ -161,7 +160,7 @@ cd src
 Save the rpc username and password from the output ( you will need it later ). 
 Hit `CTRL+C` to stop the daemon.
 
-Now, edit the masternode config to enter the RCP username/password.
+Now, edit the masternode config to enter the rpc username/password.
 
 ```
 sudo nano ~/.Nodium/Nodium.conf
@@ -169,7 +168,7 @@ sudo nano ~/.Nodium/Nodium.conf
 
 ( this opens a text editor )
 
-Paste the text from step 3 and adjust the rpcuser and rpcpassword with the info you coppied in the previous step.
+Paste the text from step 3 and adjust the rpcuser and rpcpassword with the info you copied in the previous step.
 
 Example:
 
