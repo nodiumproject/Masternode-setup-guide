@@ -227,6 +227,23 @@ Encrypt your wallet! This prevents other people ( who have access to your comput
 
 Backup your wallet! The beauty of digital files is that you can back them up and store them somewhere safe. After encrypting your wallet make sure you back it up and keep it somewhere safe ( on a usb for example).
 
+## Finding your wallet.dat file
+
+Windows: 
+
+You can fin your Nodium folder on windows by simply searching for the 'Nodum' folder - You will then see the wallet.dat folder. 
+
+macOS: (This can seem more tricky to find for a novice)
+
+1.) Click the Finder icon on the dock
+2.) press Command+SHIFT+"G" to "Go to the folder"
+3.) Input "~/Library" and hit RETURN.
+
+This will allow you to access the Library folder and inside there you must go to "Application Support" and once there you can see the data directories for all of your Wallets including 'Nodium'
+
+We suggest only downloading this file directly onto a usb or storage device which you can control only, to ensure security. Leaving files on your desktop is not recommended. 
+
+
 ## 7.2 VPS
 
 For the more advanced user I advise making your VPS more secure from all kinds of attacks. We don't want other people stealing our masternode right?
