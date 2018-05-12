@@ -18,6 +18,7 @@ CLI_BINARY="/root/nodium/src/nodium-cli"
 CLI_OLD="/root/nodium/src/Nodium-cli"
 CONF_FILE="/root/.Nodium/nodium.conf"
 CONF_OLD="/root/.Nodium/Nodium.conf"
+MN_PORT="6250"
 
 DAEMON_START="/root/nodium/src/nodiumd -daemon"
 CRONTAB_LINE="@reboot $DAEMON_START"
