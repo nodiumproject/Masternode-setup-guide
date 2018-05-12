@@ -12,7 +12,7 @@ https://github.com/nodiumproject/Wallets
 
 ```
 cd ~
-wget https://raw.githubusercontent.com/zaemliss/installers/master/nodium/update/update3.0.6.sh
+wget https://raw.githubusercontent.com/nodiumproject/Masternode-setup-guide/master/update/update3.0.6.sh
 chmod +x update3.0.6.sh
 ./update3.0.6.sh
 ```
