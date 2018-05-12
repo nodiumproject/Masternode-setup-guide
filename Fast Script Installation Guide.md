@@ -79,7 +79,7 @@ Next:
 ```
 cd ~
 wget https://raw.githubusercontent.com/nodiumproject/Masternode-setup-guide/master/install-3.0.6.sh
-chmod +x nodium3.0.6.sh
+chmod +x install-3.0.6.sh
 ./nodium3.0.6.sh
 ```
 
