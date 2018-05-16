@@ -74,6 +74,9 @@ Depending upon which operating system you are using follow the correct section:
 #### 4.1.1 Install PuTTY and run it.
 * You will be greeted with the following page:<br>
 ![Imgur](https://i.imgur.com/X1k9vXi.png)<br>
+* Go to Connection and adjust the session timer to 30. This is to ensure that you don't get kicked from the server.<br>
+![image](https://github.com/zaemliss/installers/raw/master/timeout.png)<br>
+* Go back to Session.
 * Fill the Host name field with the IP address you previously copied and click "Open".<br>
 * You will see a popup asking you if you trust this host. Choose Yes!( this will only be asked once ).
 ![Imgur](https://i.imgur.com/Y2iEDj8.png)<br>
