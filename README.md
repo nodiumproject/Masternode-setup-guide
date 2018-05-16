@@ -112,10 +112,10 @@ The file will look like this:
 # Example: mn1 127.0.0.2:51474 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 MN01 124.842.07.0:6250 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
 ```
-4.8 Restart the wallet
+4.8 Restart the wallet<br>
 4.9 Go to your wallet and go to the masternode page.<br>
+* Select the masternode and press: "Start alias".<br>
 ![Imgur](https://i.imgur.com/jXDVZqO.png)<br>
-* Select the masternode and press: "Start alias".
 
 To verify that the masternode is running on the vps:
 * Type: `cd ~/nodium/src`  ENTER
