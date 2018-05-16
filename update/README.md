@@ -7,6 +7,12 @@ https://github.com/nodiumproject/Wallets
 
 ## If your Windows/Mac wallet is already upgraded, continue below:
 
+First off, make sure you adjust the session timer for your session as you might get kicked from your VPS session if you don't
+
+![](https://github.com/zaemliss/installers/blob/master/timeout.png)
+
+Once that's done,
+
 1. Log into your VPS
 2. in your SSH session, type:
 
