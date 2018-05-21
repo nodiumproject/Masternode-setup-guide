@@ -130,6 +130,9 @@ If you followed these steps correctly your Nodium masternode should be running r
 
 After some time the rewards will be distributed in your wallet.
 
+<br>
+When using Microsoft Azure for your masternode VM, the port can not bind to the public ip. You will get an error if you use the script. To make it work edit ~/.Nodium/nodium.conf and edit the bind entry, change this to your local ip. After this goto portal.azure.com, login and edit the VM network settings to bind port 6250 to your external ip. Restart the daemon on the VM using ~/nodium/src/nodiumd -daemon and it should be running.
+
 # 5. Security
 
 ## 5.1 Wallet
