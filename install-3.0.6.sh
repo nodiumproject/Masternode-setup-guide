@@ -99,6 +99,7 @@ function create_swap()
 
 function clone_github()
 {
+  rm -rf ~/$PROJECT_FOLDER
   echo
   echo -e "${BLUE}Cloning GitHUB${NC}"
   cd /root/
