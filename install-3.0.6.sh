@@ -121,7 +121,7 @@ function install_prerequisites()
   sudo apt-get install -y pkg-config
   sudo add-apt-repository ppa:bitcoin/bitcoin -y
   sudo apt-get update
-  sudo apt-get install -y git build-essential libevent-dev libtool libboost-all-dev libgmp-dev libssl-dev libcurl4-openssl-dev git
+  sudo apt-get install -y git build-essential pkg-config libevent-dev libtool libboost-all-dev libgmp-dev libssl-dev libcurl4-openssl-dev git
   sudo apt-get update
   sudo apt-get upgrade -y
   sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
