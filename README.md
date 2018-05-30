@@ -3,7 +3,7 @@
 > In this guide we will install a Nodium masternode the EASY way :)<br><br>
 Let's get started!
 
-## 1. Inital wallet setup
+## 1. Initial wallet setup
 * 1.1 Download the [latest wallet](https://github.com/nodiumproject/Wallets) for your operating system which is available in our wallets repository.<br>
 * 1.2 Launch the wallet and allow it to synchronize <br />
 * 1.3 Click on `debug console` found in `tools`
@@ -131,21 +131,42 @@ If you followed these steps correctly your Nodium masternode should be running r
 After some time the rewards will be distributed in your wallet.
 
 <br>
-When using Microsoft Azure for your masternode VM, the port can not bind to the public ip. You will get an error if you use the script. To make it work edit ~/.Nodium/nodium.conf and edit the bind entry, change this to your local ip. After this goto portal.azure.com, login and edit the VM network settings to bind port 6250 to your external ip. Restart the daemon on the VM using ~/nodium/src/nodiumd -daemon and it should be running.
 
-# 5. Security
+# 5. Troubleshooting
 
-## 5.1 Wallet
+5.1 Cannot bind port
+When using another VPS provider (Microsoft Azure for example) as mentioned in this guide, you might not be able to directly bind the port to your external VPS IP. You will get an error at the end of the setup. In that case you need to bind it to your local IP. You can find the local IP by typing logging in to the VPS with the in the guide given user:
+* Type: `ifconfig`  ENTER
+* Look for the `eth0` interface:<br>
+![Imgur](https://i.imgur.com/ftQlQLp.png)
+* Copy `inet addr:<i>10.0.1.5</i>` (example)<br>
+* Type: `nano ~/.Nodium/nodium.conf`  ENTER
+* Change: `bind=<i>10.0.1.5</i>` (example)<br>
+* Type: `ctrl+o`
+* Type: `ctrl+x` <br>
+
+Now, login to the VPS portal to add the inbound network port (6250) because your host could not bind it through the VPS host.
+This is pretty generic (Microsoft Azure example) please follow the hoster guides for your situation. 
+<br>
+![Imgur](https://i.imgur.com/YcNrWKF.png)
+<br>
+Next, back on the VPS:
+* Type: ~/nodium/src/nodiumd -daemon
+Now it will start the Nodium NM using the new settings you just made.
+
+# 6. Security
+
+## 6.1 Wallet
 
 Encrypt your wallet! This prevents other people ( who have access to your computer or get access to your wallet.dat file ) to get in your wallet. Don't lose that password. If you lose it the wallet is locked forever and nobobdy will be able to recover your funds.
 
 Backup your wallet! The beauty of digital files is that you can back them up and store them somewhere safe. After encrypting your wallet make sure you back it up and keep it somewhere safe ( on a usb for example).
 
-## 5.2 VPS
+## 6.2 VPS
 
 For the more advanced user I advise making your VPS more secure from all kinds of attacks. We don't want other people stealing our masternode right?
 Please look at this guide http://patheyman.com/masternode-secure/ for more info.
 
-# 6. Questions?
+# 7. Questions?
 
 If you have a problem or a question you can find us in the #support channel on our Discord.
