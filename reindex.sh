@@ -28,4 +28,11 @@ echo
 echo -e "${GREEN}Starting server...${NC}"
 ~/nodium/src/nodiumd -daemon
 sleep 5
+./nodium/src/nodium-cli addnode 45.76.240.114:6250 add
+./nodium/src/nodium-cli addnode 45.77.102.126:6250 add
+./nodium/src/nodium-cli addnode 217.69.3.193:6250 add
+./nodium/src/nodium-cli addnode 104.198.13.125:6250 add
+./nodium/src/nodium-cli addnode 206.189.199.203:6250 add
+./nodium/src/nodium-cli addnode 85.255.3.24:6250 add
+
 watch -g ~/nodium/src/nodium-cli masternode status
