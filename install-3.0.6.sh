@@ -18,7 +18,7 @@ TMP_FOLDER=$(mktemp -d)
 RPC_USER="nodium-Admin"
 MN_PORT=6250
 RPC_PORT=19647
-CRONTAB_LINE="@reboot $DAEMON_START"
+CRONTAB_LINE="@reboot sleep 60 && /root/nodium/src/nodiumd -daemon"
 GITHUB_REPO="https://github.com/nodiumproject/zNodium"
 
 function checks() 
