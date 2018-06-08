@@ -18,7 +18,7 @@ TMP_FOLDER=$(mktemp -d)
 RPC_USER="nodium-Admin"
 MN_PORT=6250
 RPC_PORT=19647
-CRONTAB_LINE="@reboot $DAEMON_START"
+CRONTAB_LINE="@reboot sleep 60 && /root/nodium/src/nodiumd -daemon"
 GITHUB_REPO="https://github.com/nodiumproject/zNodium"
 
 function checks() 
@@ -99,6 +99,7 @@ function create_swap()
 
 function clone_github()
 {
+  rm -rf ~/$PROJECT_FOLDER
   echo
   echo -e "${BLUE}Cloning GitHUB${NC}"
   cd /root/
@@ -120,7 +121,7 @@ function install_prerequisites()
   sudo apt-get install -y pkg-config
   sudo add-apt-repository ppa:bitcoin/bitcoin -y
   sudo apt-get update
-  sudo apt-get install -y git build-essential libevent-dev libtool libboost-all-dev libgmp-dev libssl-dev libcurl4-openssl-dev git
+  sudo apt-get install -y git build-essential pkg-config libevent-dev libtool libboost-all-dev libgmp-dev libssl-dev libcurl4-openssl-dev git
   sudo apt-get update
   sudo apt-get upgrade -y
   sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
