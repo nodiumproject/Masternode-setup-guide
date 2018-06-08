@@ -3,6 +3,8 @@
 > In this guide we will install a Nodium masternode the EASY way :)<br><br>
 Let's get started!
 
+<b>Disclaimer, you will get the best results if you do this in one sitting. There is a chance are that the 10,000 coins masternode collateral will stake and split the transaction. If that happens you will have to do step 1.6 again.</b>
+
 ## 1. Initial wallet setup
 * 1.1 Download the [latest wallet](https://github.com/nodiumproject/Wallets) for your operating system which is available in our wallets repository.<br>
 * 1.2 Launch the wallet and allow it to synchronize <br />
