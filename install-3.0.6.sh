@@ -107,7 +107,7 @@ function install_prerequisites()
   sudo apt-get install -y git libminiupnpc-dev unzip build-essential pkg-config libevent-dev libtool libboost-all-dev libgmp-dev libssl-dev libcurl4-openssl-dev git
   sudo apt-get update
   sudo apt-get upgrade -y
-  sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
+  sudo apt-get install -y libdb4.8-dev libdb4.8++-dev libminiupnpc-dev
   sudo apt-get install -y autoconf automake
 }
 
